@@ -90,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
-        <!--View Controller-->
+        <!--AuthVC-->
         <scene sceneID="Xkp-ej-w1q">
             <objects>
-                <viewController id="VLy-IC-pKJ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AuthVC" id="VLy-IC-pKJ" customClass="AuthVC" customModule="AppoOChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OZk-p5-ilU"/>
                         <viewControllerLayoutGuide type="bottom" id="cjw-5p-kMY"/>
@@ -186,10 +186,10 @@
             </objects>
             <point key="canvasLocation" x="-1543.2" y="-0.44977511244377816"/>
         </scene>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="jzM-Ng-36y">
             <objects>
-                <viewController id="k3V-jX-BWr" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVC" id="k3V-jX-BWr" customClass="LoginVC" customModule="AppoOChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2qY-x6-Jy3"/>
                         <viewControllerLayoutGuide type="bottom" id="abo-CI-01Q"/>

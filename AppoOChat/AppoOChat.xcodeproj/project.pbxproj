@@ -16,6 +16,8 @@
 		77053E771F3F3B2E00C55312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77053E751F3F3B2E00C55312 /* LaunchScreen.storyboard */; };
 		776AD7651F446EE20003BC81 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 776AD7641F446EE20003BC81 /* GoogleService-Info.plist */; };
 		776AD7671F4476C60003BC81 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776AD7661F4476C60003BC81 /* DataService.swift */; };
+		777930221F45E04700B5F96D /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777930211F45E04700B5F96D /* AuthVC.swift */; };
+		777930241F45E0B800B5F96D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777930231F45E0B800B5F96D /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		77053E781F3F3B2E00C55312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		776AD7641F446EE20003BC81 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		776AD7661F4476C60003BC81 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		777930211F45E04700B5F96D /* AuthVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		777930231F45E0B800B5F96D /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		781B320577FCEAF1DD25E3CB /* Pods-AppoOChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppoOChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppoOChat/Pods-AppoOChat.debug.xcconfig"; sourceTree = "<group>"; };
 		A219269CF7CB4958A0E211B1 /* Pods-AppoOChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppoOChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppoOChat/Pods-AppoOChat.release.xcconfig"; sourceTree = "<group>"; };
 		CF52D28CDEF6BE992E59BBB9 /* Pods_AppoOChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppoOChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +99,8 @@
 			children = (
 				77053E6C1F3F3B2E00C55312 /* FirstViewController.swift */,
 				77053E6E1F3F3B2E00C55312 /* SecondViewController.swift */,
+				777930211F45E04700B5F96D /* AuthVC.swift */,
+				777930231F45E0B800B5F96D /* LoginVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777930221F45E04700B5F96D /* AuthVC.swift in Sources */,
 				77053E6F1F3F3B2E00C55312 /* SecondViewController.swift in Sources */,
+				777930241F45E0B800B5F96D /* LoginVC.swift in Sources */,
 				77053E6B1F3F3B2E00C55312 /* AppDelegate.swift in Sources */,
 				77053E6D1F3F3B2E00C55312 /* FirstViewController.swift in Sources */,
 				776AD7671F4476C60003BC81 /* DataService.swift in Sources */,
